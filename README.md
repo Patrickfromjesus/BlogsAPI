@@ -42,7 +42,7 @@ Este projeto foi realizado por mim, [Patrick Gomes](https://www.linkedin.com/in/
 
 * Agradeço primeiramente a Deus;
 * É o primeiro projeto que fiz com a implementação do JWT com foco na segurança da aplicação;
-* Agradeço à Instituição [Trybe](https://www.betrybe.com/) pelo estímula diário a melhorar 🫂;
+* Agradeço à Instituição [Trybe](https://www.betrybe.com/) pelo estímulao diário a melhorar 🫂;
 * Dediquei-me como sempre faço a este trabalho e espero que tenham gostado. A evolução é constante!
 * Colossenses 3:23;
 
