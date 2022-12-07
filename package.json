@@ -1,0 +1,31 @@
+{
+  "name": "blogs-api",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "engineStrict": true,
+  "private": true,
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "mysql2": "2.1.0",
+    "sequelize": "6.3.4"
+  },
+  "main": "src/server.js",
+  "scripts": {
+    "prestart": "npx sequelize-cli db:create && npx sequelize-cli db:migrate",
+    "start": "node .",
+    "drop": "npx sequelize-cli db:drop",
+    "seed": "npx sequelize-cli db:seed:all",
+    "pretest": "(npm run kill:test && NODE_ENV=test npm run start:test) &",
+    "debug": "nodemon ."
+  },
+  "devDependencies": {
+    "change-case": "4.1.2",
+    "nodemon": "2.0.15",
+    "sequelize-cli": "6.2.0",
+    "wait-on": "6.0.1"
+  }
+}
