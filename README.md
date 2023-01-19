@@ -47,4 +47,4 @@ Este projeto foi realizado por mim, [Patrick Gomes](https://www.linkedin.com/in/
 * Colossenses 3:23;
 
 ---
-feito por [Patrick Gomes da Conceição](https://gist.github.com/lohhans);
+feito por [Patrick Gomes da Conceição](https://github.com/Patrickfromjesus);
